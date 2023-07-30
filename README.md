@@ -31,32 +31,32 @@ Before running the application, make sure you have the following software instal
 
 2. Navigate to the project folder.
 
-    cd catalyst-count
+        cd catalyst-count
 
 3. Install all the project dependencies/pre-requisites.
 
-    Ex.   pip install django
+        Ex.   pip install django
 
 4. Set up the database.
 
-    python manage.py makemigrations
-    python manage.py migrate
+        python manage.py makemigrations
+        python manage.py migrate
 
 5. Open .env file present inside catalyst_count folder. Ensure the SECRET_KEY and DATABASE_URL is present. The DATABASE_URL must be configured according to your       own PostgreSQL database. Format for updating DATABASE_URL:
 
-    DATABASE_URL=postgres://your_db_user:your_db_password@localhost/your_db_name
+        DATABASE_URL=postgres://your_db_user:your_db_password@localhost/your_db_name
 
     Replace your_db_user, your_db_password and your_db_name according to your own PostgreSQL database.
 
 6. Create a superuser. Enter some dummy credentials to create superuser.
 
-    python manage.py createsuperuser
+        python manage.py createsuperuser
 
 ## Usage
 
 To run the development server, use the following command:
 
-python.exe .\manage.py runserver
+    python.exe .\manage.py runserver
 
 The server will start running at http://localhost:8000/. Make sure there are no errors in the command prompt.
 
