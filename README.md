@@ -42,11 +42,11 @@ Before running the application, make sure you have the following software instal
     python manage.py makemigrations
     python manage.py migrate
 
-5. Open .env file present inside catalyst_count folder. Ensure the SECRET_KEY and DATABASE_URL is present. The DATABASE_URL must be configured according to your own PostgreSQL database. Format for updating DATABASE_URL:
+5. Open .env file present inside catalyst_count folder. Ensure the SECRET_KEY and DATABASE_URL is present. The DATABASE_URL must be configured according to your       own PostgreSQL database. Format for updating DATABASE_URL:
 
     DATABASE_URL=postgres://your_db_user:your_db_password@localhost/your_db_name
 
-Replace your_db_user, your_db_password and your_db_name according to your own PostgreSQL database.
+    Replace your_db_user, your_db_password and your_db_name according to your own PostgreSQL database.
 
 6. Create a superuser. Enter some dummy credentials to create superuser.
 
