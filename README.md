@@ -31,7 +31,7 @@ Before running the application, make sure you have the following software instal
 
 2. Navigate to the project folder.
 
-        cd catalyst-count
+        cd catalyst-count-main
 
 3. Install all the project dependencies/pre-requisites.
 
